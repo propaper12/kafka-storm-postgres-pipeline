@@ -1,4 +1,4 @@
-<img width="2777" height="1478" alt="image" src="https://github.com/user-attachments/assets/cef2d1f0-4d65-429b-9059-35a26458aae6" /># kafka-storm-postgres-pipeline
+kafka-storm-postgres-pipeline
 Bu proje, Data Engineer kariyerime başlarken sıfırdan tasarlayıp kurduğum, gerçek zamanlı (real-time) veri akış altyapısını uygulamaktadır. Amaç, finansal piyasa verilerini kaynaktan depoya güvenilir ve dağıtık bir şekilde taşımaktır.
 Servisleri Başlatma: (docker-compose.yml dosyasının bulunduğu dizinde) docker-compose up -d
 Veritabanı Tablosu Oluşturma:docker-compose exec -it postgres-db psql -U postgres -d borsa_projesi_db
